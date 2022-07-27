@@ -1,0 +1,171 @@
+
+
+body{                                   /*for Body*/
+    background-image: url('C:\\Users\\Lenovo\\Downloads\\547445.webp');
+    background-size: 100%;
+}
+
+h1{                     /*  for h1 tag*/
+    color: rgb(173, 28, 57);
+    background-color: blueviolet;
+    text-align: center;
+
+}
+h2{
+    color: coral;
+    background-color: beige;
+}
+
+h3,h4{                              /*Group selector*/
+    color: darkgoldenrod;
+    }
+
+               .intro{                      /*   selector for individual elements   class selector   */
+                color: blueviolet;
+                font-style: italic;
+                font-size: x-large;
+                
+                
+               }
+
+               .classSelector{
+                text-align: left;
+                text-transform: capitalize;
+                color: yellowgreen;
+               }
+
+               #idSelector{                             /* Id Selector */
+                color: beige;
+               }
+
+               .boxmodel{
+                padding: 50px 100px 30px 200px; color: whitesmoke;
+                border: 2px double blue ;
+                margin: 150px 300px 50px 100px;
+               }
+
+               .rectangle{
+                color: rgb(235, 75, 12);
+                border: 1px solid;
+                height: 50px;
+                width: 100px;
+                display: inline-block;
+               }
+               .rectangle1{
+                color: rgb(6, 240, 45);
+                border: 1px solid;
+                height: 60px;
+                width: 120px;
+                display: inline-block;
+                float:none;
+                /*margin: 0px 0px 0px 100px;*/
+                margin-left: 200px;                
+               }
+
+               .square{
+                color: red;
+                border: 1px solid;
+                margin-left: 150px;
+                height: 100px;
+                width: 100px;
+                display: inline-block;
+               }
+               .square1{
+                color: yellow;
+                border: 1px solid;
+                height: 50px;
+                width: 50px;
+                float: none;
+                display: inline-block;
+                margin-left: -80px;
+                margin-bottom: 25px;
+                margin-right: 25px;
+               }
+
+               div p{
+                color: rgb(12, 1, 1);
+                font-size: large;
+               }
+               div>p{
+                color:goldenrod;
+                font-size: x-large;
+               }
+
+               div + p{
+                color: royalblue;
+               }
+
+               div ~ p{
+                color: blueviolet;
+               }
+
+               .fixed{
+                position: fixed;
+                color: chartreuse;
+                font-size: large;
+                top: 10px;
+                /*bottom: 0px;*/
+               }
+
+               .relative{
+                position: relative;
+                right: 50px;
+                color: rgb(13, 218, 64);
+                font-size: larger;
+               }
+
+               .topleft{
+                position: absolute;
+                font-size: larger;
+                top: 0px;
+                left: 0px;
+                color: rgb(235, 8, 45);
+               }
+               .moved{
+                position: absolute;
+                font-size: 20px;
+                color: rgb(206, 240, 14);
+                top: 0px;
+                left: 850px;
+               }
+               .imagerelative{
+                position: relative;
+               }
+
+               .center{
+                position: absolute;
+                top: 0px;
+                font-size: 30px;
+                left: 400px;
+                color: gold;
+               }
+               .bottomcenter{
+                position: absolute;
+                bottom: 30px;
+                font-size: 25px;
+                left: 400px;
+                color: goldenrod;
+               }
+               .bottomleft{
+                position: absolute;
+                bottom: 30px;
+                font-size: 30px;
+                left: 0px;
+                color: chocolate;
+               }
+               .bottomright{
+                position: absolute;
+                bottom: 30px;
+                font-size: 27px;
+                right: 350px;
+                color: snow;
+               }
+               .middle{
+                position: absolute;
+                bottom: 250px;
+                left: 400px;
+                font-size: 30px;
+                color: rgb(15, 6, 6);
+               }
+
+
